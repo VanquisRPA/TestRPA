@@ -79,7 +79,7 @@ pipeline {
                )
             }
         }
-      
+   }
 			// Options
 			options {
 				// Timeout for pipeline
@@ -100,6 +100,5 @@ pipeline {
            cleanWs()
        }
    }
-}
 }
 
