@@ -64,7 +64,7 @@ pipeline {
            steps {
                echo "Deploying ${BRANCH_NAME} to orchestrator"
                UiPathDeploy (
-			   CreateProcess:True,
+			   createProcess:True,
                packagePath: "Output\\Tests\${env.BUILD_NUMBER}",
                orchestratorAddress: "${UIPATH_ORCH_URL}",
                orchestratorTenant: "${UIPATH_ORCH_TENANT_NAME}",
