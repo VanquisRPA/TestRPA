@@ -3,7 +3,7 @@ pipeline {
        //Environment Variables
        environment {
        MAJOR = '1'
-       MINOR = '1'
+       MINOR = '0'
        //Orchestrator Services
        UIPATH_ORCH_URL = "https://cloud.uipath.com/"
        UIPATH_ORCH_LOGICAL_NAME = "synechzkmwol"
@@ -54,7 +54,7 @@ pipeline {
                folderName: "${UIPATH_ORCH_FOLDER_NAME}",
                environments: '',
                //credentials: [$class: 'UserPassAuthenticationEntry', credentialsId: 'APIUserKey']
-               credentials: Token(accountName: "${UIPATH_ORCH_LOGICAL_NAME}", credentialsId: 'APIUserKey'),
+               credentials: Token(accountName: "${UIPATH_ORCH_LOGICAL_NAME}", credentialsId: 'KOgXbbbUFpT-AQQi78cFxcHRLIyMjUCeBh_xe1qvF0D12'),
 				traceLevel: 'None',
                entryPointPaths: 'Main.xaml'
 
