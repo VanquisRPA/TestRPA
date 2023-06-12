@@ -3,7 +3,7 @@
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "21.10.0"
+    "UiPath.System.Activities": "22.10.1"
   },
   "webServices": [],
   "entitiesStores": [],

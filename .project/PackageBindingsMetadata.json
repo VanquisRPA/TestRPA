@@ -198,6 +198,39 @@
         }
       }
     ],
+    "UiPath.Core.Activities.QueueTrigger": [
+      {
+        "Type": "QueueTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          },
+          "name": {
+            "Value": "QueueName",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "MaxJobsForActivation": {
+            "Value": "MaxJobsForActivation",
+            "ValueSource": "Property"
+          },
+          "ItemsActivationThreshold": {
+            "Value": "ItemsActivationThreshold",
+            "ValueSource": "Property"
+          },
+          "ItemsPerJobActivationTarget": {
+            "Value": "ItemsPerJobActivationTarget",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
     "UiPath.Core.Activities.SetAsset": [
       {
         "Type": "asset",
@@ -361,6 +394,21 @@
           },
           "folderPath": {
             "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
+    "UiPath.Core.Activities.TimeTrigger": [
+      {
+        "Type": "TimeTrigger",
+        "Arguments": {
+          "TimeZone": {
+            "Value": "TimeZone",
+            "ValueSource": "Property"
+          },
+          "CronExpression": {
+            "Value": "CronExpression",
             "ValueSource": "Property"
           }
         }
